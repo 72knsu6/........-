@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>@eco_glitch</title>
+<style>
+  body {
+    background: #000;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    overflow: hidden;
+    margin: 0;
+    padding: 2rem;
+  }
+  .glitch {
+    font-size: 1.4rem;
+    position: relative;
+    color: #0f0;
+    animation: glitchAnim 2s infinite;
+  }
+  @keyframes glitchAnim {
+    0% {text-shadow: 2px 0 red;}
+    20% {text-shadow: -2px 0 blue;}
+    40% {text-shadow: 2px 2px lime;}
+    60% {text-shadow: -2px -2px cyan;}
+    80% {text-shadow: 2px 0 magenta;}
+    100% {text-shadow: none;}
+  }
+  .hidden {
+    color: #000;
+    user-select: none;
+    font-size: 0.1px;
+  }
+  /* Fragmentos con código difícil de inspeccionar */
+  .frag1::before {content: "h"; visibility: hidden;}
+  .frag2::before {content: "t"; visibility: hidden;}
+  .frag3::before {content: "t"; visibility: hidden;}
+  .frag4::before {content: "p"; visibility: hidden;}
+  .frag5::before {content: "s"; visibility: hidden;}
+  .frag6::before {content: ":"; visibility: hidden;}
+  .frag7::before {content: "/"; visibility: hidden;}
+  .frag8::before {content: "/"; visibility: hidden;}
+  .frag9::before {content: "7"; visibility: hidden;}
+  .frag10::before {content: "2"; visibility: hidden;}
+  .frag11::before {content: "k"; visibility: hidden;}
+  .frag12::before {content: "n"; visibility: hidden;}
+  .frag13::before {content: "s"; visibility: hidden;}
+  .frag14::before {content: "u"; visibility: hidden;}
+  .frag15::before {content: "6"; visibility: hidden;}
+  .frag16::before {content: "."; visibility: hidden;}
+  .frag17::before {content: "g"; visibility: hidden;}
+  .frag18::before {content: "i"; visibility: hidden;}
+  .frag19::before {content: "t"; visibility: hidden;}
+  .frag20::before {content: "h"; visibility: hidden;}
+  .frag21::before {content: "u"; visibility: hidden;}
+  .frag22::before {content: "b"; visibility: hidden;}
+  .frag23::before {content: "."; visibility: hidden;}
+  .frag24::before {content: "i"; visibility: hidden;}
+  .frag25::before {content: "o"; visibility: hidden;}
+  .frag26::before {content: "/"; visibility: hidden;}
+  .frag27::before {content: "2"; visibility: hidden;}
+  .frag28::before {content: "0"; visibility: hidden;}
+  .frag29::before {content: "_"; visibility: hidden;}
+  .frag30::before {content: "2"; visibility: hidden;}
+  .frag31::before {content: "5"; visibility: hidden;}
+  .frag32::before {content: "/"; visibility: hidden;}
+</style>
+</head>
+<body>
+  <div class="glitch">ERROR 404</div>
+  <div class="glitch" style="margin-top: 2rem;">
+    <span class="frag1"></span><span class="frag2"></span><span class="frag3"></span><span class="frag4"></span><span class="frag5"></span><span class="frag6"></span><span class="frag7"></span><span class="frag8"></span><span class="frag9"></span><span class="frag10"></span><span class="frag11"></span><span class="frag12"></span><span class="frag13"></span><span class="frag14"></span><span class="frag15"></span><span class="frag16"></span><span class="frag17"></span><span class="frag18"></span><span class="frag19"></span><span class="frag20"></span><span class="frag21"></span><span class="frag22"></span><span class="frag23"></span><span class="frag24"></span><span class="frag25"></span><span class="frag26"></span><span class="frag27"></span><span class="frag28"></span><span class="frag29"></span><span class="frag30"></span><span class="frag31"></span><span class="frag32"></span>
+  </div>
+  <div class="hidden">Keep looking deeper...</div>
+</body>
+</html>
